@@ -86,6 +86,7 @@ nav ul li {
     height: 4rem;
     width: 4rem;
     margin-right: 1rem;
+    flex: 1 0;
 }
 .proyecto {
     flex: 1 0 ;
