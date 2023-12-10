@@ -230,3 +230,13 @@ footer{
 .about p {
   margin-bottom: 1em; 
 }
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#pokeimagen {
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+}
