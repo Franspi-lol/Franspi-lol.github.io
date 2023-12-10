@@ -1,0 +1,121 @@
+.linkRepo {
+    background-image: url("./img/25231.png");
+    height: 3rem;
+    width: 3rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+.fotoPerfil {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10%;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.linkRepo:hover {
+    transform: scale(1.1);
+}
+.linkLinkedin{
+    background-image: url("./img/png-transparent-linkedin-logo-linkedin-logo-computer-icons-business-symbol-linkedin-icon-miscellaneous-blue-angle-thumbnail.png");
+    height: 3rem;
+    width: 3rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+
+}
+.linkLinkedin:hover {
+    transform: scale(1.1);
+}
+.emailLink{
+    background-image: url("./img/4672500.png");
+    height: 3rem;
+    width: 3rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+.emailLink:hover {
+    transform: scale(1.1);
+}
+header{
+    position: sticky;
+    top: 0;
+
+    left: 0;
+    z-index: 100;
+
+    margin: 0 auto;
+
+    background-color: white;
+    width: 100%;
+    height: 6.5rem;
+    
+    border-bottom: .1rem solid rgb(219, 219, 219);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.listaLenguajes{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 2rem;
+    justify-content: space-around;
+}
+
+.lenguaje img{
+    height: 4rem;
+    width: 4rem;
+    margin-right: 1rem;
+}
+.proyecto {
+    flex: 1 0 ;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.listaProyectos {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+.header-content {
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+}
