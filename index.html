@@ -10,7 +10,7 @@
     <link rel="icon" href="./img/favicon.ico">
 </head>
 
-<body>
+<body id="inicio">
     <header>
         <nav>
             <ul>
@@ -23,7 +23,7 @@
     </header>
 
 
-    <section class="inicio" id="inicio">
+    <section class="inicio" >
         <br><br><br>
         <div class="header-content">
             <div class="nombre">
@@ -42,22 +42,29 @@
         <div class="listaProyectos">
             <button class="button left" onclick="plusDivs(-1)">&#10094;</button>
             <div class="proyecto">
-                <h3>Biblioteca de Peliculas</h3>
-                <a href="https://github.com/Franspi-lol/peliculas" class="linkRepo" target="_blank"></a>
+                <div class="titProy">
+                    <h3>Biblioteca de Peliculas</h3>
+                    <a href="https://github.com/Franspi-lol/peliculas" class="linkRepo" target="_blank"></a>
+                </div>
+                
                 <p>Proyecto sobre un sistema basico de administracion de peliculas para usuarios realizado en C</p>
                 <p>Se utilizaron estructuras compuestas, punteros, recursividad y almacenamiento en archivos</p>
             </div>
             <div class="proyecto">
-                <h3>Biblioteca de Videojuegos</h3>
-                <a href="https://github.com/Franspi-lol/TPSteam" class="linkRepo" target="_blank"></a>
+                <div class="titProy">
+                    <h3>Biblioteca de Videojuegos</h3>
+                    <a href="https://github.com/Franspi-lol/TPSteam" class="linkRepo" target="_blank"></a>
+                </div>
                 <p>Proyecto sobre un sistema basico de administracion de videojuegos para usuarios a partir de un
                     archivo json ya formateado con un listado de juegos. Realizado en Java</p>
                 <p>Se utilizaron conocimientos en programacion orientada a objetos, genericidad, interfaces,
                     excepciones, consumo de archivos JSON y utilizacion de archivos para guardar datos de usuarios</p>
             </div>
             <div class="proyecto">
-                <h3>Batallas Pokemon</h3>
-                <a href="https://github.com/Franspi-lol/Batalla-Pokemon" class="linkRepo" target="_blank"></a>
+                <div class="titProy">
+                    <h3>Batallas Pokemon</h3>
+                    <a href="https://github.com/Franspi-lol/Batalla-Pokemon" class="linkRepo" target="_blank"></a>
+                </div>
                 <p>Aplicacion Angular sobre un sistema capaz de registrar usuarios y permitirles jugar a un Videojuego
                     de combate por turnos basado en el videojuego Pokemon. La app permite al usuario jugar con otra
                     persona, revisar historial y observar datos de los Pokemons obtenidos a partir de la PokeApi</p>
@@ -109,7 +116,7 @@
             </div>
     </section>
 
-    <section id="about">
+    <section class="about" id="about">
         <br><br><br>
         <h2>Sobre Mi</h2>
         <p>
