@@ -1,12 +1,14 @@
 var slideIndex = 1;
 let imagen
+let minimo = 1;
+let maximo = 151;
 
 document.addEventListener('DOMContentLoaded', async function() {
   let pokeimg = document.getElementById('pokeimagen');
 
   showDivs(slideIndex);
   
-  pokeimg.src = await returnPokeImg(1, 151);
+  pokeimg.src = await returnPokeImg(minimo, maximo);
 });
 
 function plusDivs(n) {
@@ -29,9 +31,9 @@ function randomNum(min, max){
   
 }
 
-async function returnPokeImg()
+async function returnPokeImg(min, max)
 {
-  const response = await fetch('https://pokeapi.co/api/v2/pokemon/' + randomNum(1, 151));
+  const response = await fetch('https://pokeapi.co/api/v2/pokemon/' + randomNum(min, max));
   let respuestaimagen = await response.json();
   imagen = respuestaimagen.sprites.front_default;
   return imagen;
