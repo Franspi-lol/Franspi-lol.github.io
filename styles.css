@@ -91,6 +91,7 @@ nav ul {
 
   height: 5rem;
   width: 100%;
+  
 }
 .link:hover {
   background-color: rgb(20, 65, 104);
@@ -126,6 +127,8 @@ nav ul {
 .contact-item {
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: white;
 }
 .header-content {
   display: flex;
@@ -194,6 +197,15 @@ footer{
     font-weight: bold;
     position: sticky;
     bottom: 0;
+    
+}
+h1{
+  margin: 1rem;
+  padding: 0;
+}
+h2{
+  margin: 1rem;
+  padding: 0;
 }
 .inicio{
   display: flex;

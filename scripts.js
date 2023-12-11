@@ -1,5 +1,4 @@
 var slideIndex = 1;
-let imagen
 let minimo = 1;
 let maximo = 151;
 
@@ -35,6 +34,6 @@ async function returnPokeImg(min, max)
 {
   const response = await fetch('https://pokeapi.co/api/v2/pokemon/' + randomNum(min, max));
   let respuestaimagen = await response.json();
-  imagen = respuestaimagen.sprites.front_default;
-  return imagen;
+  
+  return respuestaimagen.sprites.front_default;
 }
