@@ -252,3 +252,17 @@ nav {
   right: 1rem;
   top: 1rem;
 }
+.proyecto p{
+  margin: 1rem;
+  padding: 0;
+  text-align: center;
+}
+.ghPages{
+  width: 7rem;
+  display: block;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+.ghPages:hover{
+  transform: scale(1.1);
+}

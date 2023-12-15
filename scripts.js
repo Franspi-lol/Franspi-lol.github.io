@@ -4,10 +4,19 @@ let maximo = 151;
 
 document.addEventListener('DOMContentLoaded', async function() {
   let pokeimg = document.getElementById('pokeimagen');
+  let ghPages = document.getElementsByClassName('ghPages');
+
+  for ( let i = 0; i < ghPages.length; i++ ) {
+    ghPages[i].src = './img/pages.png';
+  }
+
+  ghPages.src = './img/pages.png';
 
   showDivs(slideIndex);
   
   pokeimg.src = await returnPokeImg(minimo, maximo);
+
+
 });
 
 function plusDivs(n) {
