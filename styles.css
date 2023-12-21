@@ -1,3 +1,5 @@
+
+
 .linkRepo {
   background-image: url("./img/25231.png");
   height: 3rem;
@@ -265,4 +267,41 @@ nav {
 }
 .ghPages:hover{
   transform: scale(1.1);
+}
+
+  
+@media (max-width: 600px) {
+  .linkRepo, .linkLinkedin {
+      height: 2rem;
+      width: 2rem;
+  }
+  .fotoPerfil {
+      height: 8rem;
+      width: 8rem;
+  }
+  
+  header {
+    padding: 0.5rem;
+    
+}
+nav ul {
+    
+    
+    flex-wrap: wrap;
+}
+nav ul li {
+    margin-bottom: 0.5rem;
+}
+.nombre h1, .nombre h2 {
+    font-size: 1.2rem;
+}
+a{
+  font-size: 1.2rem;
+}
+#pokeimagen {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
 }
