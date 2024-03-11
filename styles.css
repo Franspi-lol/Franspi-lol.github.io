@@ -141,14 +141,14 @@ nav ul {
 }
 html {
   scroll-behavior: smooth;
-  box-sizing: border-box;
-  /* font-size: 62.5%; */
-  margin: 0;
-  padding: 0;
-  margin: 1%;
+  
+  
 }
 body {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
@@ -189,6 +189,7 @@ p {
 }
 footer{
     display: flex;
+    margin-top: auto;
     justify-content: center;
     align-items: center;
     height: 5rem;
@@ -270,38 +271,54 @@ nav {
 }
 
   
-@media (max-width: 600px) {
-  .linkRepo, .linkLinkedin {
-      height: 2rem;
-      width: 2rem;
+@media screen{
+
+  html{
+    font-size: 50%;
+    max-width: 100vw;
   }
-  .fotoPerfil {
-      height: 8rem;
-      width: 8rem;
+
+  header{
+    display: flex;
+    justify-content:center;
+    flex-flow: row wrap;
+    
+  }
+
+  header ul{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    white-space: nowrap;
+  }
+
+  header{
+    max-width: 100vw;
+  }
+  div{
+    max-width: 100vw;
+  }
+
+  .header-content{
+    display: flex;
+    
+    justify-content: space-around;
+    flex-flow: row wrap;
+    
   }
   
-  header {
-    padding: 0.5rem;
-    
-}
-nav ul {
-    
-    
-    flex-wrap: wrap;
-}
-nav ul li {
-    margin-bottom: 0.5rem;
-}
-.nombre h1, .nombre h2 {
-    font-size: 1.2rem;
-}
-a{
-  font-size: 1.2rem;
-}
-#pokeimagen {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  #pokeimagen {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    font-size: 1.5rem; 
+    width: 100vw;
+  }
 }
 
-}
+
+
